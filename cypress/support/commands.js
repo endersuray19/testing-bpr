@@ -1,3 +1,5 @@
+import "cypress-file-upload";
+
 Cypress.Commands.add("login", (email) => {
   cy.visit("https://bpr.fullstressdigital.id/admin");
   cy.url().should("include", "/admin");
