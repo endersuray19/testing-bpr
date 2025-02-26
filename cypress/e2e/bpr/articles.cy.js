@@ -18,12 +18,9 @@ describe("test on articles", () => {
     );
     cy.get("#data\\.content")
       .type(`"Teto adalah salah satu karakter yang memiliki sejarah unik dalam budaya pop digital. Awalnya, Teto dikenal sebagai bagian dari sebuah proyek komunitas yang berkembang di internet. Meskipun pada awalnya dianggap sebagai lelucon atau hoaks, popularitasnya meningkat dengan cepat, terutama di kalangan penggemar musik dan seni digital.
-
-    Teto pertama kali diperkenalkan sebagai karakter dengan latar belakang yang dibuat-buat, tetapi seiring waktu, ia mendapatkan basis penggemar yang kuat. Berbagai kreator mulai membuat lagu, ilustrasi, dan animasi yang menampilkan Teto, yang kemudian menjadikannya ikon dalam komunitas tertentu. Keunikan desain dan suara yang khas membuat Teto semakin dikenal luas.
-
-    Keberadaan Teto juga tidak lepas dari teknologi yang mendukungnya. Dengan berbagai alat dan perangkat lunak yang terus berkembang, banyak penggemar yang dapat menciptakan karya-karya baru yang berkaitan dengan karakter ini. Hal ini membuat Teto terus bertahan dan relevan dalam berbagai bentuk ekspresi kreatif.
-
-    Hingga saat ini, Teto tetap menjadi bagian penting dalam dunia kreatif digital. Ia tidak hanya sekadar karakter, tetapi juga simbol dari bagaimana komunitas internet dapat menciptakan sesuatu yang bertahan lama melalui kolaborasi dan dedikasi. Dengan semakin banyaknya konten yang dibuat oleh penggemar, Teto terus berkembang dan menjadi inspirasi bagi banyak orang."`);
+      Teto pertama kali diperkenalkan sebagai karakter dengan latar belakang yang dibuat-buat, tetapi seiring waktu, ia mendapatkan basis penggemar yang kuat. Berbagai kreator mulai membuat lagu, ilustrasi, dan animasi yang menampilkan Teto, yang kemudian menjadikannya ikon dalam komunitas tertentu. Keunikan desain dan suara yang khas membuat Teto semakin dikenal luas.
+      Keberadaan Teto juga tidak lepas dari teknologi yang mendukungnya. Dengan berbagai alat dan perangkat lunak yang terus berkembang, banyak penggemar yang dapat menciptakan karya-karya baru yang berkaitan dengan karakter ini. Hal ini membuat Teto terus bertahan dan relevan dalam berbagai bentuk ekspresi kreatif.
+      Hingga saat ini, Teto tetap menjadi bagian penting dalam dunia kreatif digital. Ia tidak hanya sekadar karakter, tetapi juga simbol dari bagaimana komunitas internet dapat menciptakan sesuatu yang bertahan lama melalui kolaborasi dan dedikasi. Dengan semakin banyaknya konten yang dibuat oleh penggemar, Teto terus berkembang dan menjadi inspirasi bagi banyak orang."`);
 
     cy.get("input[type='file']").attachFile("hq720.jpg", { force: true });
 
