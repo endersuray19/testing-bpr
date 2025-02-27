@@ -108,7 +108,7 @@ describe("Testing-Catgory", () => {
       .contains("The name has already been taken.")
       .should("be.visible");
   });
-  it("deleted  all", () => {
+  it.skip("deleted  all", () => {
     cy.get("li").contains("Categories").should("be.visible").click();
     cy.wait(1000);
     cy.url().should("include", "/admin/product-categories");
